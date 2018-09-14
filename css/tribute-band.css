@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Lato');
 
 html {
   background: linear-gradient(45deg, #fafafa, #fff);
@@ -19,6 +19,21 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  width: 600px;
+  max-width: 100%;
+  margin: 48px auto;
+  font-size: 16px;
+  text-align: left;
+}
+.first-letter {
+    font-size: 3em;
+    line-height: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #c6c6c6;
 }
 
 .text-center {
