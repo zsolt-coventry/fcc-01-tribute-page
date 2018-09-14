@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
+html {
+  background: linear-gradient(45deg, #fafafa, #fff);
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 4em;
+  color: #212121;
+}
+
+h1 span {
+  font-weight: lighter;
+  color: #484848;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
